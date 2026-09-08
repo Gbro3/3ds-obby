@@ -1,0 +1,88 @@
+BasicInfo:
+  Title                   : "3DS Obby"
+  ProductCode             : "CTR-P-OBBY"
+  Logo                    : Nintendo
+
+TitleInfo:
+  UniqueId                : 0xFF3DA
+  Category                : Application
+
+Option:
+  UseOnSD                 : true
+  FreeProductCode         : true
+  MediaFootPadding        : false
+  EnableCrypt             : false
+  EnableCompress          : true
+
+AccessControlInfo:
+  CoreVersion                            : 2
+  DescVersion                            : 2
+  ReleaseKernelMajor                     : "02"
+  ReleaseKernelMinor                     : "33"
+  MemoryType                             : Application
+  SystemModeExt                          : Legacy
+  IdealProcessor                         : 0
+  AffinityMask                           : 1
+  Old3dsSystemMode                       : 64MB
+  New3dsSystemMode                       : Legacy
+  New3dsCpuSpeed                         : Legacy
+  EnableL2Cache                          : false
+  CpuSpeed                               : 268MHz
+  SystemSaveDataId1                      : 0
+  FileSystemAccess:
+    - CategorySystemApplication
+    - CategoryHardwareCheck
+    - CategoryFileSystemTool
+    - Debug
+    - TwlCardBackup
+    - TwlNandData
+    - Boss
+    - DirectSdmc
+    - Core
+    - CtrNandRo
+    - CtrNandRw
+    - CtrNandRoWrite
+    - CategorySystemSettings
+    - CardBoard
+    - ExportImportIvs
+    - DirectSdmcWrite
+    - SwitchCleanup
+    - SaveDataMove
+    - Shop
+    - Shell
+    - CategoryHomeMenu
+  IoAccessControl:
+    - FsMountNand
+    - FsMountNandRoWrite
+    - FsMountTwln
+    - FsMountWnand
+    - FsMountCardSpi
+    - UseSdif3
+    - CreateSeed
+    - UseCardSpi
+    - SdApplication
+    - UseDirectSdmc
+  ServiceAccessControl:
+    - APT:U
+    - hid:USER
+    - fs:USER
+    - gsp::Gpu
+    - gsp::Lcd
+    - ndm:u
+    - cfg:u
+    - dsp::DSP
+    - csnd:SND
+    - soc:U
+    - ptm:u
+    - ac:u
+    - am:net
+  FileSystemInfo:
+    ExtdataId                            : 0xFF3DA
+    SystemSaveDataId1                    : 0
+    SystemSaveDataId2                    : 0
+    OtherUserSaveDataId1                 : 0
+    OtherUserSaveDataId2                 : 0
+    OtherUserSaveDataId3                 : 0
+    AccessInfo:
+      UseExtSaveData                     : false
+      UseOtherVariationSaveData          : false
